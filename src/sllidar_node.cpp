@@ -76,7 +76,7 @@ class SLlidarNode : public rclcpp::Node
         frame_id = this->declare_parameter<std::string>("frame_id", "laser_frame");
         inverted = this->declare_parameter<bool>("inverted", false);
         angle_compensate = this->declare_parameter<bool>("angle_compensate", false);
-        scan_mode = this->declare_parameter<std::string>("scan_mode","DenseBoost");
+        scan_mode = this->declare_parameter<std::string>("scan_mode", "");
         if(channel_type == "udp")
           scan_frequency = this->declare_parameter<float>("scan_frequency", 20.0);
         else 
