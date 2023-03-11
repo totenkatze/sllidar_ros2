@@ -27,7 +27,7 @@ Supported SLAMTEC LIDAR
 
 ## How to [install ROS2](https://index.ros.org/doc/ros2/Installation)
 [foxy](https://docs.ros.org/en/foxy/Installation.html),
-[dashing](https://docs.ros.org/en/dashing/Installation.html),
+[humble](https://docs.ros.org/en/humble/Installation.html),
 [rolling](https://docs.ros.org/en/rolling/Installation.html)
 
 ## How to configuring your ROS 2 environment
